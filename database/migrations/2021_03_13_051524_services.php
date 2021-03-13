@@ -13,7 +13,14 @@ class Services extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('services', function (
+            Blueprint $table) {
+            $table->id()->unique();
+            $table->string('name');
+            $table->text('description');
+            $table->integer('value');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +30,6 @@ class Services extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('services');
     }
 }

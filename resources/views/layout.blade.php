@@ -20,7 +20,7 @@
 	    </main>
 	    <footer class="bg-white text-center py-3 text-black-50 shadow">
 	    	@include('partials/footer')
-	    	Nutresa Spa | Copyright @ {{ date('Y') }}
+	    	Naturesa Spa | Copyright @ {{ date('Y') }}
 	    </footer>
     </div>
    </body>

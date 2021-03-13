@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-expand-md bg-white shadow-sm">
+<nav class="navbar navbar-light navbar-expand-md bg-white shadow-sm d-flex justify-content-around">
   <div class="container">
     <a class="navbar-brand" href="{{ route('home') }}">
       <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo Nutresa Spa">Nutresa Spa
